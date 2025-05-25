@@ -1,3 +1,8 @@
+# type and interfaces
+
+   - both type and interface can be used to define the shape of an object or data structure, but they have different capabilities and use cases.
+
+
 # interfaces
 
    - we can't write like this because don't assign the run time var as custom types to an other var.

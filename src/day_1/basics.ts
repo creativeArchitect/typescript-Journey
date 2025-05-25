@@ -1,5 +1,3 @@
-
-
 // const x: number = 5;
 // console.log(x);
 
@@ -46,9 +44,7 @@
 // greet("ayush");
 
 
-// +++++++ type and interfaces +++++++
 
-//  both type and interface can be used to define the shape of an object or data structure, but they have different capabilities and use cases.
 
 
 
