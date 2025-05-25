@@ -1,1 +1,1 @@
-{"root":["./src/day_1.ts"],"version":"5.8.3"}
+{"root":["./src/day_1/basics.ts","./src/day_1/interfaces.ts","./src/day_1/type.ts"],"version":"5.8.3"}
