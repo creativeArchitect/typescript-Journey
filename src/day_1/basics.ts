@@ -41,8 +41,11 @@
 //   Parameter 'name' implicitly has an 'any' type =>  noImplicitAny should be
 // const greet = (name) => `Hello, ${name}!`;
 
-// greet("ayush");
 
+//  both are same thing, function which return void.
+
+// greet: ()=> void
+// greet: (): void
 
 
 

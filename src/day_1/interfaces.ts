@@ -63,19 +63,74 @@
 
 
 
+// interface User {
+//     name: string;
+//     age: number;
+//     address?: AddressType;
+// }
+
+//  In this we write that whole address is optional, if we define it so we need to define all the things which he is contains.
+
+// interface AddressType {
+//     address: string;
+//     city: string;
+//     country: string;
+// }
 
 
+// const printInfo = (user: User) => {
+//     console.log(user.address);
+// }
+
+// const user = {
+//     name: "ayush",
+//     age: 21,
+//     address: {
+//         city: "jaipur",
+//         country: "india",
+//         address: "new colony railway station"
+//     }
+// }
 
 
+// interface Person {
+//     name: string;
+//     age: number;
+    // greet(): void;
+//     greet: ()=> void;
+// }
+
+// let p: Person = {
+//     name: "aayush",
+//     age: 21,
+//     greet: ()=> "Hi"
+// }
+
+// let greeting = p.greet()+ " " + p.name;
+// console.log(greeting);
 
 
+//  class creation using interfaces
 
+// interface User {
+//     name: string;
+// }
 
+//  we should need to initialize the element of that interface in the class.
 
+// class Person implements User {
+//     name: string;
+//     constructor(name: string){
+//         this.name = name;
+//     }
+//     print(){
+//         console.log("Hellooo " + this.name);
+//     }
+// }
 
-
-
-
+// let p1 = new Person("aAyush..");
+ 
+// p1.print();
 
 
 

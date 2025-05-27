@@ -40,8 +40,25 @@
         }
         // Box is now { height: number; width: number; }
 
+    - we can create an object of an instance or can create a class that implements that interface
 
+    interface User {
+        name: string;
+    }
 
+   -   we should need to initialize the element of that interface in the class.
+
+    class Person implements User {
+        name: string;
+        constructor(name: string){
+            this.name = name;
+        }
+        print(){
+            console.log("Hellooo " + this.name);
+        }
+    }
+
+    let p1 = new Person("aAyush..");
 
 # Types
 
@@ -98,3 +115,25 @@
    - Working with React props :- interface
    - Needing unions/intersections or advanced typing :- type
    - Want declaration merging or extendability :- interface
+
+
+# By default, TypeScript treats all files as part of the same global project scope, unless you explicitly scope them using modules.
+
+   - TypeScript files are considered to be in the global scope unless you:
+
+       - Use module syntax (i.e., import/export)
+
+       - Or configure strict module boundaries in your tsconfig.json
+
+
+
+
+
+
+
+
+
+
+
+
+
