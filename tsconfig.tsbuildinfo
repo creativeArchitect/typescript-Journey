@@ -1,1 +1,1 @@
-{"root":["./src/day_1/basics.ts","./src/day_1/interfaces.ts","./src/day_1/type.ts","./src/day_2/arrays.ts","./src/day_2/enums.ts","./src/day_2/generics.ts","./src/day_3/pick.ts"],"version":"5.7.3"}
+{"root":["./src/day_1/basics.ts","./src/day_1/interfaces.ts","./src/day_1/type.ts","./src/day_2/arrays.ts","./src/day_2/enums.ts","./src/day_2/generics.ts","./src/day_3/exclude.ts","./src/day_3/maps.ts","./src/day_3/partial.ts","./src/day_3/pick.ts","./src/day_3/readonly.ts","./src/day_3/records.ts"],"version":"5.7.3"}

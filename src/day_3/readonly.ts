@@ -1,12 +1,8 @@
 
-interface config {
+interface Config {
 	endpoint: string;
 	apiKey: string;
 }
-// interface config {
-// 	readonly endpoint: string;
-// 	readonly apiKey: string;
-// }
 
 const config: Config = {
     endpoint: 'https://api.example.com',
@@ -20,14 +16,3 @@ const config: Config = {
 
 config.apiKey = "JohnNahiBanegaDON#74";
 
-
-
-
-
-
-
-
-
-
-
-   
