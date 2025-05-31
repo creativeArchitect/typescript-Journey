@@ -29,19 +29,19 @@
 
 //  we don't know what type of para we will give in this function. but it will working same for any datatype.
 
-function getFirst<T>(arr: T[]): T{
-    return arr[0];
-}
+// function getFirst<T>(arr: T[]): T{
+//     return arr[0];
+// }
 
-const el = getFirst<string>(["harkirat", "singh"]);
+// const el = getFirst<string>(["harkirat", "singh"]);
 
-console.log(el.toUpperCase());
+// console.log(el.toUpperCase());
 
-const e = getFirst([ 1, 2, 3, "harkirat", "singh" ]);   //  if we don't give like getFirst<string | number>([]) it will assume automatically.
+// const e = getFirst([ 1, 2, 3, "harkirat", "singh" ]);   //  if we don't give like getFirst<string | number>([]) it will assume automatically.
 
-console.log(e);
+// console.log(e);
 
 
-const nums = getFirst<number>([1,2,3]);
-console.log(nums);
+// const nums = getFirst<number>([1,2,3]);
+// console.log(nums);
 

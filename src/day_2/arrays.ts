@@ -40,22 +40,26 @@
 
 //  Problem: Given a list of usres, filter out the user that are legal to work.
 
-interface User {
-    name: string;
-    age: number;
-}
+// interface User {
+//     name: string;
+//     age: number;
+// }
 
-let list: User[] =[{ name: "ayush", age: 21 }, { name: "hritik", age: 20 }, { name: "tukku", age: 17 }];
+// let list: User[] =[
+//     { name: "ayush", age: 21 }, 
+//     { name: "hritik", age: 20 }, 
+//     { name: "tukku", age: 17 }
+// ];
 
-const getList = (list: User[]) => {
-    list.forEach((item: User)=>{
-        if(item.age > 18){
-            console.log(item.name + " is legal to work");
-        }
-    })
-}
+// const getList = (list: User[]) => {
+//     list.forEach((item: User)=>{
+//         if(item.age > 18){
+//             console.log(item.name + " is legal to work");
+//         }
+//     })
+// }
 
-getList(list);
+// getList(list);
 
 
 
